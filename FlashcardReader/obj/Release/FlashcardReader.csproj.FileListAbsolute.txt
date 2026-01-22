@@ -1,0 +1,14 @@
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.csproj.AssemblyReference.cache
+D:\Learn\FlashcardReader\FlashcardReader\bin\Release\FlashcardReader.exe.config
+D:\Learn\FlashcardReader\FlashcardReader\bin\Release\FlashcardReader.exe.manifest
+D:\Learn\FlashcardReader\FlashcardReader\bin\Release\FlashcardReader.application
+D:\Learn\FlashcardReader\FlashcardReader\bin\Release\FlashcardReader.exe
+D:\Learn\FlashcardReader\FlashcardReader\bin\Release\FlashcardReader.pdb
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.Form1.resources
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.Properties.Resources.resources
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.csproj.GenerateResource.cache
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.csproj.CoreCompileInputs.cache
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.exe.manifest
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.application
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.exe
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.pdb
