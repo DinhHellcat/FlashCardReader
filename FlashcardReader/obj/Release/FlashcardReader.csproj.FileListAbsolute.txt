@@ -12,3 +12,4 @@ D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.exe.manifes
 D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.application
 D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.exe
 D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.pdb
+D:\Learn\FlashcardReader\FlashcardReader\obj\Release\FlashcardReader.exe.config

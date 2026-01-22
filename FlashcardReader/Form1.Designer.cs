@@ -47,7 +47,6 @@
             this.lblWord.TabIndex = 0;
             this.lblWord.Text = "label1";
             this.lblWord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblWord.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LblWord_MouseClick);
             // 
             // menuStrip1
             // 

@@ -29,7 +29,7 @@ namespace FlashcardReader
         private void SetupCustomUI()
         {
             this.BackColor = colorBackground;
-            this.Text = "Flashcard Learning - Infinite Loop";
+            this.Text = "Flashcard Ultimate";
             this.KeyPreview = true;
 
             lblWord.ForeColor = colorTextEng;
@@ -37,7 +37,6 @@ namespace FlashcardReader
             lblWord.Dock = DockStyle.Fill;
             lblWord.TextAlign = ContentAlignment.MiddleCenter;
             lblWord.Text = "Open File to Start";
-            lblWord.MouseClick += LblWord_MouseClick;
 
             lblCount = new Label();
             lblCount.ForeColor = colorCounter;
@@ -47,13 +46,22 @@ namespace FlashcardReader
             lblCount.Text = "";
             this.Controls.Add(lblCount);
             lblCount.BringToFront();
+
+            lblWord.MouseDown -= Global_MouseDown; // Xóa cũ
+            lblWord.MouseDown += Global_MouseDown; // Gán mới
+
+            this.MouseDown -= Global_MouseDown;
+            this.MouseDown += Global_MouseDown;
+
+            lblCount.MouseDown -= Global_MouseDown;
+            lblCount.MouseDown += Global_MouseDown;
         }
 
+        // --- SỰ KIỆN MENU ---
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Text Files (*.txt)|*.txt";
-
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 LoadFile(openFileDialog.FileName);
@@ -107,7 +115,7 @@ namespace FlashcardReader
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi: " + ex.Message);
+                MessageBox.Show("Lỗi đọc file: " + ex.Message);
             }
         }
 
@@ -116,7 +124,6 @@ namespace FlashcardReader
             if (cards.Count == 0) return;
 
             Flashcard currentCard = cards[currentIndex];
-
             lblCount.Text = $"#{currentCard.OriginalId}  ({currentIndex + 1}/{cards.Count})";
 
             if (!isShowingMeaning)
@@ -135,7 +142,7 @@ namespace FlashcardReader
         {
             if (cards.Count > 0)
             {
-                if (keyData == Keys.Space)
+                if (keyData == Keys.Space || keyData == Keys.Up || keyData == Keys.Down)
                 {
                     ToggleMeaning();
                     return true;
@@ -156,7 +163,7 @@ namespace FlashcardReader
             return base.ProcessCmdKey(ref msg, keyData);
         }
 
-        private void LblWord_MouseClick(object sender, MouseEventArgs e)
+        private void Global_MouseDown(object sender, MouseEventArgs e)
         {
             if (cards.Count == 0) return;
 
@@ -179,7 +186,6 @@ namespace FlashcardReader
         private void NextCard()
         {
             if (cards.Count == 0) return;
-
             currentIndex++;
 
             if (currentIndex >= cards.Count)
@@ -194,7 +200,6 @@ namespace FlashcardReader
         private void PrevCard()
         {
             if (cards.Count == 0) return;
-
             currentIndex--;
 
             if (currentIndex < 0)
