@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "FlashcardReader\\Form1.cs",
               "ToolTip": "D:\\Learn\\FlashcardReader\\FlashcardReader\\Form1.cs",
               "RelativeToolTip": "FlashcardReader\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAswNcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T04:13:22.141Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "FlashcardReader\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T04:13:10.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T04:13:10.531Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "FlashcardReader\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T04:01:28.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T04:01:28.505Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "ToolTip": "D:\\Learn\\FlashcardReader\\FlashcardReader\\Form1.cs [Design]",
               "RelativeToolTip": "FlashcardReader\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T04:01:24.605Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-22T04:01:24.605Z"
             }
           ]
         }

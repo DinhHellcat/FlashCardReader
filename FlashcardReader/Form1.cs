@@ -29,7 +29,7 @@ namespace FlashcardReader
         private void SetupCustomUI()
         {
             this.BackColor = colorBackground;
-            this.Text = "Flashcard Learning";
+            this.Text = "Flashcard Learning - Infinite Loop";
             this.KeyPreview = true;
 
             lblWord.ForeColor = colorTextEng;
@@ -75,6 +75,7 @@ namespace FlashcardReader
                 cards[n] = value;
             }
 
+            currentIndex = 0;
             isShowingMeaning = false;
             UpdateDisplay();
         }
@@ -140,7 +141,7 @@ namespace FlashcardReader
                     return true;
                 }
 
-                if (keyData == Keys.Enter)
+                if (keyData == Keys.Enter || keyData == Keys.Right)
                 {
                     NextCard();
                     return true;
@@ -149,12 +150,6 @@ namespace FlashcardReader
                 if (keyData == Keys.Left)
                 {
                     PrevCard();
-                    return true;
-                }
-
-                if (keyData == Keys.Right)
-                {
-                    NextCard();
                     return true;
                 }
             }
@@ -183,26 +178,32 @@ namespace FlashcardReader
 
         private void NextCard()
         {
-            if (currentIndex < cards.Count - 1)
+            if (cards.Count == 0) return;
+
+            currentIndex++;
+
+            if (currentIndex >= cards.Count)
             {
-                currentIndex++;
-                isShowingMeaning = false;
-                UpdateDisplay();
+                currentIndex = 0;
             }
-            else
-            {
-                MessageBox.Show("Done.", "Flashcard");
-            }
+
+            isShowingMeaning = false;
+            UpdateDisplay();
         }
 
         private void PrevCard()
         {
-            if (currentIndex > 0)
+            if (cards.Count == 0) return;
+
+            currentIndex--;
+
+            if (currentIndex < 0)
             {
-                currentIndex--;
-                isShowingMeaning = false;
-                UpdateDisplay();
+                currentIndex = cards.Count - 1;
             }
+
+            isShowingMeaning = false;
+            UpdateDisplay();
         }
     }
 
