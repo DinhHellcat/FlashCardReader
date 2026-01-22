@@ -1,0 +1,210 @@
+Increase
+Tăng lên
+Decrease
+Giảm xuống
+Fluctuate
+Biến động, dao động
+Stable
+Ổn định
+Significant
+Đáng kể
+Slight
+Nhẹ, một chút
+Gradual
+Dần dần
+Rapid
+Nhanh chóng
+Approximately
+Xấp xỉ
+Figure
+Số liệu, con số
+Percentage
+Tỷ lệ phần trăm
+Proportion
+Tỷ trọng
+Chart
+Biểu đồ
+Compare
+So sánh
+Contrast
+Tương phản
+Similar
+Tương tự
+Difference
+Sự khác biệt
+However
+Tuy nhiên
+Whereas
+Trong khi
+Although
+Mặc dù
+Trend
+Xu hướng
+Period
+Giai đoạn
+Annual
+Hàng năm
+Consumption
+Sự tiêu thụ
+Production
+Sự sản xuất
+Participate
+Tham gia
+Opportunity
+Cơ hội
+Challenge
+Thử thách
+Experience
+Kinh nghiệm
+Develop
+Phát triển
+Improve
+Cải thiện
+Necessary
+Cần thiết
+Encourage
+Khuyến khích
+Environment
+Môi trường
+Pollution
+Sự ô nhiễm
+Solution
+Giải pháp
+Government
+Chính phủ
+Society
+Xã hội
+Population
+Dân số
+Education
+Giáo dục
+Knowledge
+Kiến thức
+University
+Đại học
+Subject
+Môn học
+Career
+Sự nghiệp
+Employee
+Nhân viên
+Employer
+Ông chủ, người thuê
+Salary
+Lương
+Colleague
+Đồng nghiệp
+Customer
+Khách hàng
+Service
+Dịch vụ
+Product
+Sản phẩm
+Quality
+Chất lượng
+Reason
+Lý do
+Result
+Kết quả
+Effect
+Ảnh hưởng, hiệu quả
+Affect
+Tác động
+Advantage
+Lợi thế
+Disadvantage
+Bất lợi
+Benefit
+Lợi ích
+Drawback
+Hạn chế
+Popular
+Phổ biến
+Famous
+Nổi tiếng
+Typical
+Điển hình
+Traditional
+Truyền thống
+Modern
+Hiện đại
+Culture
+Văn hóa
+Foreign
+Nước ngoài
+Tourist
+Khách du lịch
+Destination
+Điểm đến
+Accommodation
+Chỗ ở
+Transport
+Giao thông
+Vehicle
+Phương tiện
+Convenient
+Tiện lợi
+Expensive
+Đắt
+Cheap
+Rẻ
+Crowded
+Đông đúc
+Quiet
+Yên tĩnh
+Peaceful
+Bình yên
+Exciting
+Thú vị, hào hứng
+Boring
+Nhàm chán
+Difficult
+Khó khăn
+Simple
+Đơn giản
+Complex
+Phức tạp
+Various
+Đa dạng
+Specific
+Cụ thể
+General
+Chung chung
+Mention
+Đề cập
+Describe
+Miêu tả
+Explain
+Giải thích
+Suggest
+Gợi ý
+Recommend
+Khuyên, đề xuất
+Opinion
+Ý kiến
+Believe
+Tin rằng
+Agree
+Đồng ý
+Disagree
+Không đồng ý
+Prefer
+Thích hơn
+Favorite
+Yêu thích
+Hobby
+Sở thích
+Relax
+Thư giãn
+Stress
+Căng thẳng
+Healthy
+Khỏe mạnh
+Exercise
+Tập thể dục
+Diet
+Chế độ ăn uống
+Habit
+Thói quen
+Routine
+Thói quen hàng ngày
